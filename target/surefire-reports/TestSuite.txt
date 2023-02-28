@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 1, Time elapsed: 135.378 s <<< FAILURE! - in TestSuite
+submitOrder(rahulshettyacademy.Tests.StandAloneTest)  Time elapsed: 16.11 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (935, 651)
+  (Session info: chrome=110.0.5481.104)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd45d037b3f3cdd1affc3bb9391fbd78, clickElement {id=7b2a0496-cabc-4258-8f75-29eaadb80065}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:50816}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50816/devtoo..., se:cdpVersion: 110.0.5481.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cd45d037b3f3cdd1affc3bb9391fbd78)] -> css selector: .action__submit]
+Session ID: cd45d037b3f3cdd1affc3bb9391fbd78
+	at rahulshettyacademy.Tests.StandAloneTest.submitOrder(StandAloneTest.java:57)
+
+submitOrder(rahulshettyacademy.Tests.StandAloneTest)  Time elapsed: 15.975 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (935, 651)
+  (Session info: chrome=110.0.5481.104)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c04136f5c0f095ac7b744b2b87bce99b, clickElement {id=45b6a90d-553e-4441-a654-12efc4088992}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:50865}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50865/devtoo..., se:cdpVersion: 110.0.5481.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c04136f5c0f095ac7b744b2b87bce99b)] -> css selector: .action__submit]
+Session ID: c04136f5c0f095ac7b744b2b87bce99b
+	at rahulshettyacademy.Tests.StandAloneTest.submitOrder(StandAloneTest.java:57)
+
+submitOrder(rahulshettyacademy.Tests.StandAloneTest)  Time elapsed: 16.264 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (935, 651)
+  (Session info: chrome=110.0.5481.104)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b1376bf2fcf29bf24267c26bf7caa611, clickElement {id=214df21b-6d8a-428b-8f07-9a4c1bc0b672}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:50892}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50892/devtoo..., se:cdpVersion: 110.0.5481.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b1376bf2fcf29bf24267c26bf7caa611)] -> css selector: .action__submit]
+Session ID: b1376bf2fcf29bf24267c26bf7caa611
+	at rahulshettyacademy.Tests.StandAloneTest.submitOrder(StandAloneTest.java:57)
+
